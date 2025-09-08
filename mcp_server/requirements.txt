@@ -1,0 +1,47 @@
+# 웹 프레임워크
+fastapi>=0.95.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# 데이터베이스
+sqlalchemy>=2.0.0
+alembic>=1.11.0
+psycopg2-binary>=2.9.6
+
+# LLM 오케스트레이션
+langchain>=0.0.200
+langchain-community>=0.0.10
+langchain-openai>=0.0.2
+llama-index>=0.8.0
+
+# 벡터 데이터베이스
+chromadb>=0.4.0
+
+# 임베딩 및 텍스트 처리
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+sentence-transformers>=2.2.0
+
+# HTTP 클라이언트
+httpx>=0.24.0
+aiohttp>=3.8.4
+
+# 유틸리티
+pyyaml>=6.0
+tenacity>=8.2.0
+json5>=0.9.0
+
+# 테스트
+pytest>=7.3.0
+pytest-asyncio>=0.21.0
+httpx>=0.24.0
+
+# 문서 처리
+pyPDF2>=3.0.0
+docx2txt>=0.8
+
+# 로깅 및 모니터링
+loguru>=0.7.0
